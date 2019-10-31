@@ -105,6 +105,8 @@ img {
 .logo-wrapper p {
   margin: 0;
   padding: 0;
+
+  font-size: 20px;
 }
 
 .logo-wrapper a {
@@ -208,7 +210,7 @@ img {
 
 /* Стилизация контейнера для контента .content-wrapper*/
 .content-wrapper {
-  border: 30px solid black;
+  border: 30px solid #f4dcb5;
 
   padding: 30px;
 
