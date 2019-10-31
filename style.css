@@ -93,36 +93,35 @@ img {
   background-image: url(/img/background-books.jpg);
   background-repeat: repeat-x;
 
-  box-shadow: 0 0 5px 2px black;
+  color: #ecd5ac;
 
-  min-height: 322px;
+  box-shadow: 0 0 5px 2px black;
 
   margin-bottom: 50px;
 
   text-align: center;
-  color: #ecd5ac;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .logo-wrapper p {
   margin: 0;
   padding: 0;
-
-  font-size: 20px;
-  color: #ecd5ac;
 }
 
 .logo-wrapper a {
   text-decoration: none;
-  color: #ecd5ac;
 }
 
 .logo img {
   width: 152px;
   height: 139px;
+}
+
+.logo-wrapper {
+  min-height: 322px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-wrapper a:active,
@@ -209,7 +208,7 @@ img {
 
 /* Стилизация контейнера для контента .content-wrapper*/
 .content-wrapper {
-  border: 30px solid #f4dcb5;
+  border: 30px solid black;
 
   padding: 30px;
 
@@ -256,8 +255,6 @@ img {
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
-
-  font-size: 14px;
 }
 
 .price h2 {
