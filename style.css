@@ -15,24 +15,15 @@ img {
 }
 
 .visually-hidden {
-  /* Удаляем элемент из потока документа */
   position: absolute;
-  /* Временное решение для неверно произносимого, размазанного текста */
   white-space: nowrap;
-  /* Устанавливаем минимально возможный размер (некоторые скринридеры игнорируют элементы с нулевой высотой и шириной) */
   width: 1px;
   height: 1px;
-  /* Скрываем вылезающий за границы контент */
   overflow: hidden;
-  /* Сбрасываем любые свойства, которые могут повлиять на размер элемента */
   border: 0;
   padding: 0;
-  /* Вырезаем ту часть контента, которая должна отображаться. */
-  /* Устаревшее свойство clip для старых браузеров */
   clip: rect(0 0 0 0);
-  /* clip-path для новых браузеров. inset(50%) определяет область вставки, которая позволит контенту исчезнуть.  */
   clip-path: inset(50%); 
-    /* Похоже, никто до конца не понимает, почему тут margin: -1px. Кроме того, это приводит к проблемам (читай: https://github.com/h5bp/html5-boilerplate/issues/1985). */
   margin: -1px;
 }
 
@@ -90,7 +81,7 @@ img {
 
 .logo-wrapper {
   background-color: #44332a;
-  background-image: url(/img/background-books.jpg);
+  background-image: url('img/background-books.jpg');
   background-repeat: repeat-x;
 
   color: #ecd5ac;
@@ -162,7 +153,7 @@ img {
 
 .page-name {
   background-color: #44332a;
-  background-image: url(/img/title.png);
+  background-image: url('img/title.png');
   background-repeat: repeat-x;
 
   position: relative;
@@ -189,7 +180,7 @@ img {
   width: 53px;
 
   background-color: #44332a;
-  background-image: url(/img/title_left.png);
+  background-image: url('img/title_left.png');
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -204,7 +195,7 @@ img {
   width: 53px;
 
   background-color: #44332a;
-  background-image: url(/img/title_right.png);
+  background-image: url('img/title_right.png');
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -518,13 +509,13 @@ img {
 }
 
 .vk {
-  background-image: url(/img/vk.svg);
+  background-image: url('img/vk.svg');
 }
 
 .fb {
-  background-image: url(/img/facebook.svg);
+  background-image: url('img/facebook.svg');
 }
 
 .instagram {
-  background-image: url(/img/instagram.svg);
+  background-image: url('img/instagram.svg');
 }
